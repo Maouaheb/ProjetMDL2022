@@ -8,6 +8,7 @@ import javax.persistence.Id;
 @Entity
 public class Product {
     public Product() {
+        System.out.println("hello");
     }
 
     private int id;
